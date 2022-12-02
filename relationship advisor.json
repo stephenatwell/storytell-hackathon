@@ -1,0 +1,82 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hello, Please upload a video of a fight to learn more about it"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "How can He get his way?",
+						"emoji": true
+					},
+					"value": "before:Here's how he can get his way| prompt:How can he get his way based on the text above? | replace_button:true | after: This text comes how he can get his way",
+					"action_id": "custom_action1"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Who won this fight?",
+						"emoji": true
+					},
+					"value": "before:Here's who won| prompt:Who won this fight? | replace_button:true | after: Here's who won this fight",
+					"action_id": "custom_action2"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Who won this fight?",
+						"emoji": true
+					},
+					"value": "before:How could you communicate more effectively?| prompt:How could the speakers have communicated more effectively? | replace_button:true | after: Here's how they could have communicated more effectively",
+					"action_id": "custom_action3"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Where will this fight lead?",
+						"emoji": true
+					},
+					"value": "before:Where will this fight lead?| prompt:Write a horro story about the above. | replace_button:true | after: This fight will lead to:",
+					"action_id": "custom_action4"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "How can he get her to finally leave him?",
+						"emoji": true
+					},
+					"value": "before:How can he get her to leave?| prompt:How can he get her to finally leave him? | replace_button:true | after: He can get her to leave by:",
+					"action_id": "custom_action5"
+				},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Generate",
+						"emoji": true
+					},
+					"value": "press_all_buttons",
+					"action_id": "press_all_buttons"
+				}
+			]
+		}
+	]
+}
