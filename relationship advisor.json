@@ -62,19 +62,6 @@
 					},
 					"value": "before:How can he get her to leave?| prompt:How can he get her to finally leave him? | replace_button:true | after: He can get her to leave by:",
 					"action_id": "custom_action5"
-				},
-		{
-			"type": "actions",
-			"elements": [
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Generate",
-						"emoji": true
-					},
-					"value": "press_all_buttons",
-					"action_id": "press_all_buttons"
 				}
 			]
 		}
